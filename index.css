@@ -139,7 +139,7 @@ header{
 }
 
 .arrow {
-    font-size: 50px;
+    font-size: 60px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
