@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    
+}
+.abouthero{
+    background-image: url(aboutus.jpeg);
+    background-size: cover;
+    height: 600px;
+    width: 1250px;
+    margin: 40px 0px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_msg{
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+}
+.about_punch{
+    font-size:small;
+}
+
+/* client experience */
+.about_client{
+    padding-top: 80px;
+    display: flex;
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+.client_i{
+    border: 10px solid black;
+    margin-left: 30px;
+}
+
+.client_img{
+    background-image: url(client.jpeg);
+    background-size: cover;
+    height: 350px;
+    width: 600px;
+    padding-bottom: 20px;
+
+}
+.client_msg{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    height: 350px;
+    width: 700px;
+    text-decoration: underline;
+    padding: 5px 20px 15px 70px;
+    margin-bottom: 5px;
+    line-height: 50px;
+}
+
+.staff_heading{
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 30px;
+    background-color: white;
+    color: black;
+}
+/* staff section */
+
+.staff_section{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.box{
+    height: 450px;
+    width: 330px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.box1_img{
+    background-image: url(b1.jpeg);
+    background-size: cover;
+    height: 300px ;
+}
+
+.box2_img{
+    background-image: url(b2.jpeg);
+    background-size: cover;
+    height: 300px ;
+}
+
+.box3_img{
+    background-image: url(b3.jpeg);
+    background-size: cover;
+    height: 300px ;
+    
+}
+
+.box4_img{
+    background-image: url(b4.jpeg);
+    background-size: cover;
+    height: 300px ;
+}
+.staff_content{
+    text-align: start;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 540;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+/* footer */
+
+footer{
+    font-family: arial;
+
+}
+
+.foot-panel2{
+    background-color: white;
+    color: black;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 ul a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.foot-panel4{
+    background-color: white;
+    color: black;
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+}

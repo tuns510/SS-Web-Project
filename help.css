@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+
+
+header{
+    font-family: "Arial";
+}
+
+#navbar{
+    height: 72px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.nav-logo{
+    height: 70px;
+    width: 65px;
+}
+
+
+.logo{
+    height: 90px;
+    width: 100px;
+    font-size: 50px;
+    margin-top: 5px;
+    font-family: century;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid black;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-input{
+    background-color: #cccccc;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px ;
+    padding-left: 10px;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.search-icon i{
+    color: white;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-sign{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-sec{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-cart i{
+    font-size: 20px;
+}
+
+.nav-cart{
+    font-size: 15px;
+}
+
+.Cart{
+    text-decoration: none;
+    color: black;
+}
+
+/* box-sec */
+
+.page{
+    background-color: white;
+    font-family: arial;
+}
+
+.heading{
+    padding: 20px 25px 4px 25px;
+    font-size: 28px;
+    color: black;
+}
+
+.subtext{
+    margin: 12px 0px 50px 0px;
+    padding: 0px 25px 0px 25px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.container{
+    color: white;
+    height : 590px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.card_container{
+    display: flex;
+    margin: 24px 12px 24px 12px;
+    flex-wrap: wrap;
+}
+
+.outer_card{
+    width: 30%;
+    padding: 12px 12px 12px 12px;
+    flex-wrap: nowrap;
+}
+
+.card{
+    height: 94px;
+    background-color: #fff;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    border: 4px solid black;
+}
+
+.icon{
+    max-width: 100%;
+}
+
+.details{
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    padding-top: 35px ;
+    padding-left: 12px;
+}
+
+.details a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon i{
+    margin-top: 22px;
+    font-size: 50px;
+    background-color: black;
+}
+
+.secure_img{
+    height: 60px;
+    margin-top: 16px;
+}
+
+.mem{
+    height: 75px;
+    margin-top: 11px;
+}
+
+.acs{
+    height: 75px;
+    margin-top: 11px;
+}
+
+.se{
+    height: 80px;
+    margin-top: 10px;
+}
+
+.log{
+    height: 75px;
+    margin-top: 11px;
+}
+
+.report{
+    height: 75px;
+    margin-top: 11px;
+}
+
+/* footer */
+
+footer{
+    font-family: arial;
+
+}
+
+.foot-panel1{
+    background-color: white;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+}
+
+.foot-panel1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot-panel2{
+    background-color: white;
+    color: black;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 ul a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.foot-panel4{
+    background-color: white;
+    color: black;
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
