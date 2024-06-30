@@ -1,6 +1,6 @@
 # SS Website 
 <br>
-# Tech Used
+<h2>Tech Used</h2>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
